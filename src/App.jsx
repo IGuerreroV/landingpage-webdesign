@@ -1,7 +1,11 @@
-function App() {
+import Carrusel from './components/Carrusel'
+import Header from './components/Header'
+
+function App () {
   return (
-    <div className='bg-red-400'>
-      Hola mundo
+    <div>
+      <Header />
+      <Carrusel />
     </div>
   )
 }
