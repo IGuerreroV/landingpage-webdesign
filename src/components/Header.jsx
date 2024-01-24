@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <nav className={`fixed text-center bg-[#EFECEC] w-[60%] md:w-[40%] xl:w-full h-full ${
         showMenu ? 'left-0' : '-left-full'
-        } top-0 xl:static flex-1 flex xl:flex-row xl:items-center xl:justify-center xl:text-1xl font-bold xl:pl-0 pl-5 transition-all duration-500`}
+        } top-0 xl:static flex-1 flex xl:flex-row xl:items-center xl:justify-center xl:text-1xl font-bold xl:pl-0 pl-5 transition-all duration-500 z-50`}
       >
         <a href='#'>Nuestros Proyectos</a>
       </nav>
