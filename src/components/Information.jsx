@@ -1,22 +1,55 @@
-const Information = ( => {
-    return (
-        <div>
-            { /* Information
+const Information = () => {
+  return (
+    <div className=' bg-[white]'>
+      {/* Information */}
       <section>
-        <div className='flex flex-col items-center justify-center'>
-          <div className='items-center justify-center'>
-            <p>Buttons</p>
+        <div className='flex flex-col items-center justify-center '>
+          <div className='flex flex-col'>
+            <button className='bg-[#B49F5B] text-white py-2 px-8 rounded-xl text-xl m-1'>Contactanos via WhatsApp</button>
+            <button className=' text-black py-2 px-8 rounded-xl text-xl border-gray-500 border-[2px] m-1'>
+              Linea de Atencion xxxxxxxxx
+            </button>
           </div>
+
           <div className='items-center justify-center'>
-            <h1 className='text-center'>Nuestra Empresa</h1>
-            <p className='text-center'>En TRANSFORMAR estamos comprometidos con materializar los sueños de nuestros clientes, creando ESPACIOS únicos que reflejen la utilidad, buen gasto y comodidad. Con nuestro equipo asumimos el compromiso de diseño ejecución y entrega de cada proyecto.</p>
+            <h1 className='text-center text-2xl font-semibold pb-6'>Nuestra Empresa</h1>
+            <p className='text-center text-gray-500 text-xl leading-[2.5rem] px-60'>En TRANSFORMAR estamos comprometidos con materializar los sueños de nuestros clientes, creando ESPACIOS únicos que reflejen la utilidad, buen gasto y comodidad. Con nuestro equipo asumimos el compromiso de diseño ejecución y entrega de cada proyecto.</p>
           </div>
-          <div className='items-center justify-center'>
-            <p>Nuestros Proyectos</p>
-            <p>Nuestros servcios</p>
+
+        </div>
+      </section>
+      <section>
+        <div className='flex'>
+          <p className='font-bold text-4xl p-5 pl-60'>Nuestros Proyectos</p>
+        </div>
+        <div className='grid gap-4 items-center justify-center xl:px-60 p-10 pb-20'>
+          <div className='grid grid-cols-2 gap-5'>
+            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+          </div>
+          <div className=''>
+            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+          </div>
+          <div>
+            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+          </div>
+          <div className='grid grid-cols-2 gap-5'>
+            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+          </div>
+          <div>
+            <p className='font-bold text-4xl py-10'>Nuestros servcios</p>
+          </div>
+          <div className='grid grid-cols-3 gap-5 rounded-[10px] '>
+            <img className='p-3 bg-[#E7E4E4] h-64' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+            <img className='p-3 bg-[#E7E4E4] rounded-[10px] h-64' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+            <img className='p-3 bg-[#E7E4E4] rounded-[10px] h-64' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
           </div>
         </div>
-      </section> */ }
-        </div>
-    )
+
+      </section>
+    </div>
+  )
 }
+
+export default Information
