@@ -1,0 +1,32 @@
+import { useState } from 'react'
+import Proyectos from './proyectos'
+// Icons
+import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai'
+
+const Dropdown = () => {
+  const [isOpen, setIsOpen] = useState(false)
+  return (
+    <div className='relative flex flex-col items-center rounded-lg'>
+      <button
+        onClick={() => setIsOpen((prev) => !prev)} className='bg-[white] p-4 w-full flex items-center font-bold xl:text-lg xl:rounded-lg tracking-[1px] text-base border-4 border-transparent active:border-white active:text-white justify-between xl:justify-center hover:text-[#B49F5B] duration-0 hover:underline underline-offset-2'
+      >
+        Nuestros proyectos
+        {!isOpen
+          ? (
+            <AiOutlineCaretDown className='h-8' />
+            )
+          : (
+            <AiOutlineCaretUp className='h-8' />
+            )}
+      </button>
+
+      {isOpen && (
+        <div className='bg-white xl:border-2 border-[#EFECEC] absolute xl:top-[60px] top-[72px] flex-col items-start xl:rounded-lg p-4 text-1xl tracking-widest font-semibold xl:w-[80%] w-full'>
+          <Proyectos />
+        </div>
+      )}
+    </div>
+  )
+}
+
+export default Dropdown

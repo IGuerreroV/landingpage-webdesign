@@ -13,14 +13,14 @@ const Information = () => {
 
           <div className='items-center justify-center'>
             <h1 className='text-center text-2xl font-semibold pb-6'>Nuestra Empresa</h1>
-            <p className='text-center text-gray-500 text-xl leading-[2.5rem] px-60'>En TRANSFORMAR estamos comprometidos con materializar los sueños de nuestros clientes, creando ESPACIOS únicos que reflejen la utilidad, buen gasto y comodidad. Con nuestro equipo asumimos el compromiso de diseño ejecución y entrega de cada proyecto.</p>
+            <p className='text-center text-gray-500 text-[20px] xl:text-xl xl:leading-[2.5rem] leading-8 xl:px-60 px-10'>En TRANSFORMAR estamos comprometidos con materializar los sueños de nuestros clientes, creando ESPACIOS únicos que reflejen la utilidad, buen gasto y comodidad. Con nuestro equipo asumimos el compromiso de diseño ejecución y entrega de cada proyecto.</p>
           </div>
 
         </div>
       </section>
       <section>
-        <div className='flex'>
-          <p className='font-bold text-4xl p-5 pl-60'>Nuestros Proyectos</p>
+        <div>
+          <p className='font-bold xl:text-4xl p-5 xl:pl-60 pl-12'>Nuestros Proyectos</p>
         </div>
         <div className='grid gap-4 items-center justify-center xl:px-60 p-10 pb-20'>
           <div className='grid grid-cols-2 gap-5'>
@@ -38,12 +38,12 @@ const Information = () => {
             <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
           </div>
           <div>
-            <p className='font-bold text-4xl py-10'>Nuestros servcios</p>
+            <p className='font-bold text-4xl py-10 text-center'>Nuestros servcios</p>
           </div>
-          <div className='grid grid-cols-3 gap-5 rounded-[10px] '>
-            <img className='p-3 bg-[#E7E4E4] h-64' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
-            <img className='p-3 bg-[#E7E4E4] rounded-[10px] h-64' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
-            <img className='p-3 bg-[#E7E4E4] rounded-[10px] h-64' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+          <div className='flex xl:gap-24 md:gap-20 gap-10 rounded-[10px] justify-center '>
+            <img className='p-3 bg-[#E7E4E4] xl:h-64 md:h-[150px] h-[70px]  ' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+            <img className='p-3 bg-[#E7E4E4] rounded-[10px] xl:h-64 h-[70px] md:h-[150px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+            <img className='p-3 bg-[#E7E4E4] rounded-[10px] xl:h-64 h-[70px] md:h-[150px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
           </div>
         </div>
 
