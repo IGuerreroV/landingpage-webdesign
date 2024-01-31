@@ -22,20 +22,23 @@ const Information = () => {
         <div>
           <p className='font-bold xl:text-4xl p-5 xl:pl-60 pl-12'>Nuestros Proyectos</p>
         </div>
-        <div className='grid gap-4 items-center justify-center xl:px-60 p-10 pb-20'>
-          <div className='grid grid-cols-2 gap-5'>
-            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
-            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
-          </div>
-          <div className=''>
-            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+        <div className='grid gap-1 items-center justify-center xl:px-60 p-10 pb-20'>
+          <div className='grid grid-cols-3 gap-1'>
+            <img className='rounded-[10px] h-full' src='/Centro-de-estudio/b7f3a914-052f-4e09-a4c8-d6eb3ac63423.jpg' />
+
+            <img className='rounded-[10px] row-span-2 col-start-2 col-end-5 h-full justify-center' src='/Centros-de-entretenimiento/48f635be-97a5-431e-95dc-2cac08fe8dd3.jpg' />
+            <img className='rounded-[10px] h-full' src='/Centro-de-estudio/c35cd6c0-57af-4a90-b8ae-c26bc675415c.jpg' />
+
           </div>
           <div>
-            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+            <img className='rounded-[10px]' src='/Closet/18466287-70a5-49ab-a89f-71a642b07dbe.jpg' />
           </div>
-          <div className='grid grid-cols-2 gap-5'>
-            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
-            <img className='rounded-[10px]' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
+          <div className='grid grid-cols-3 gap-1'>
+            <img className='rounded-[10px] row-span-2 col-start-1 col-end-3 h-full' src='/Centros-de-entretenimiento/ddfaa9f6-a812-44df-a0cd-44e59b97ab72.jpg' />
+
+            <img className='rounded-[10px] h-full' src='/Closet/24cbcabd-9fbc-4e1a-ba5f-b61d4cf34042.jpg' />
+            <img className='rounded-[10px] h-full' src='/cocinas/88675123-5ee3-4de0-a3aa-14aeccf7a9f4.jpg' />
+
           </div>
           <div>
             <p className='font-bold text-4xl py-10 text-center'>Nuestros servcios</p>

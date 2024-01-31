@@ -8,7 +8,7 @@ const Dropdown = () => {
   return (
     <div className='relative flex flex-col items-center rounded-lg'>
       <button
-        onClick={() => setIsOpen((prev) => !prev)} className='bg-[white] p-4 w-full flex items-center font-bold xl:text-lg xl:rounded-lg tracking-[1px] text-base border-4 border-transparent active:border-white active:text-white justify-between xl:justify-center hover:text-[#B49F5B] duration-0 hover:underline underline-offset-2'
+        onClick={() => setIsOpen((prev) => !prev)} className='bg-white p-4 w-full flex items-center font-bold xl:text-lg xl:rounded-lg tracking-[1px] text-base border-4 border-transparent active:border-white active:text-[#B49F5B] justify-between xl:justify-center xl:hover:text-[#B49F5B] duration-0 xl:hover:underline underline-offset-2'
       >
         Nuestros proyectos
         {!isOpen
