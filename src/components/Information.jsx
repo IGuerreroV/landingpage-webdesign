@@ -1,6 +1,6 @@
 const Information = () => {
   return (
-    <div className=' bg-[white]'>
+    <div className=' bg-[white] w-full'>
       {/* Information */}
       <section>
         <div className='flex flex-col items-center justify-center '>
@@ -42,18 +42,8 @@ const Information = () => {
 
             <img className='rounded-[10px] h-full' src='/Closet/24cbcabd-9fbc-4e1a-ba5f-b61d4cf34042.jpg' />
             <img className='rounded-[10px] h-full' src='/cocinas/88675123-5ee3-4de0-a3aa-14aeccf7a9f4.jpg' />
-
-          </div>
-          <div>
-            <p className='font-bold text-4xl py-10 xl:text-center xl:tracking-widest tracking-wide'>Nuestros servicios</p>
-          </div>
-          <div className='flex flex-col xl:flex-row xl:gap-24 md:gap-5 gap-10 rounded-[10px] justify-center items-center'>
-            <img className='p-3 bg-[#E7E4E4] xl:h-64 md:h-[550px] h-[70%] w-full ' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
-            <img className='p-3 bg-[#E7E4E4] rounded-[10px] xl:h-64 h-[70%] md:h-[550px] w-full' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
-            <img className='p-3 bg-[#E7E4E4] rounded-[10px] xl:h-64 h-[70%] md:h-[550px] w-full' src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80' />
           </div>
         </div>
-
       </section>
     </div>
   )

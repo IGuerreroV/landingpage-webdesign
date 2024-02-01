@@ -1,6 +1,7 @@
 import Carrusel from './components/Carrusel'
 import Header from './components/Header'
 import Information from './components/Information'
+import Servicios from './components/Servicios'
 import Footer from './components/Footer'
 
 function App () {
@@ -9,6 +10,7 @@ function App () {
       <Header />
       <Carrusel />
       <Information />
+      <Servicios />
       <Footer />
     </div>
   )

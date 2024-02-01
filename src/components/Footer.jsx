@@ -6,8 +6,8 @@ const Footer = () => {
     <div>
       <div className='flex h-[150px] bg-[#B49F5B] w-full text-white '>
         <button className='flex items-center justify-center gap-4 py-10 w-full '>
-          <FaInstagram />
-          <FaFacebookF />
+          <FaInstagram className='hover:scale-110' />
+          <FaFacebookF className='hover:scale-110' />
         </button>
       </div>
       <div>
