@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Proyectos from './proyectos'
+import Proyectos from './Proyectos'
 // Icons
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai'
 
