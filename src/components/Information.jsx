@@ -11,7 +11,7 @@ const Information = () => {
       {/* Information */}
       <div className='fixed w-[60px] h-[60px] bg-[#25d366] bottom-10 right-[20px] text-[#fff] rounded-[50%] text-center shadow-[2px_2px_3px_#999] z-50 hover:bg-[#28e56d] '>
         <a
-          href='https://api.whatsapp.com/send?phone=3209850691&text=Asesor%C3%ADa%20Personalizada'
+          href='https://api.whatsapp.com/send?phone=573209850691&text=Me%20interesa%20saber%20mas%20sobre...'
           target='_blank' rel='noreferrer'
         >
           <FaWhatsapp className='text-6xl' />
