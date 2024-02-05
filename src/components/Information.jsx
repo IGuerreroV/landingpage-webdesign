@@ -1,22 +1,41 @@
+// Icons
+import { FaWhatsapp } from 'react-icons/fa'
+
 const Information = () => {
+  const HandleCall = () => {
+    window.location.href = 'tel:1111111'
+  }
+
   return (
-    <div className=' bg-[white] w-full'>
+    <div className=' w-full'>
       {/* Information */}
+      <div className='fixed w-[60px] h-[60px] bg-[#25d366] bottom-10 right-[20px] text-[#fff] rounded-[50%] text-center shadow-[2px_2px_3px_#999] z-50 hover:bg-[#28e56d] '>
+        <a
+          href='https://api.whatsapp.com/send?phone=3209850691&text=Asesor%C3%ADa%20Personalizada'
+          target='_blank' rel='noreferrer'
+        >
+          <FaWhatsapp className='text-6xl' />
+          <span className='fixed right-[90px] bottom-[52px] bg-white text-black p-1.5 rounded-lg font-semibold tracking-wider'>Asesoría Personalizada</span>
+        </a>
+      </div>
       <section>
         <div className='flex flex-col items-center justify-center '>
           <div className='flex flex-col'>
-            <button className='bg-[#B49F5B] text-white py-2 px-8 rounded-xl text-xl m-1 hover:scale-[102%] font-normal'>
-              Contáctanos por WhatsApp
-            </button>
-            <button className=' text-black py-2 px-8 rounded-xl text-xl border-gray-500 border-[2px] m-1 hover:border-black hover:scale-[101%] font-normal'>
-              Línea de Atención xxxxxxxxx
-            </button>
+
+            <a
+              className=' text-white py-2 px-8 rounded-xl text-xl border-gray-500 border-[2px] m-1 hover:border-black hover:scale-[101%] font-normal text-center'
+              href='tel:1111111'
+              onClick={HandleCall}
+            >
+              Llama ahora
+            </a>
           </div>
 
           <div className='items-center justify-center'>
             <h1 className='text-center text-2xl font-medium pb-6 pt-1 tracking-[1px]'>Nuestra Empresa</h1>
-            <p className='text-center text-gray-500 text-[20px] xl:text-xl xl:leading-[2.5rem] leading-8 xl:px-80 px-10 font-mono'>
-              En <span className='text-[#000]'>TRANSFORMAR</span> estamos comprometidos con materializar los sueños de nuestros clientes, creando ESPACIOS únicos que reflejen la utilidad, buen gasto y comodidad. Con nuestro equipo asumimos el compromiso de diseño ejecución y entrega de cada proyecto.
+            <p className='text-center text-[#000000] text-[20px] xl:text-xl xl:leading-[2.5rem] leading-8 xl:px-80 px-10 font-mono'>
+              ¡Haz realidad el espacio de tus sueños con <span className='text-[white]'>Transformar Espacios!</span> Comprometidos con la excelencia y tu satisfacción, nos dedicamos a crear <span className='text-[white]'>espacios</span> que son verdaderas obras de arte en funcionalidad, confort y que sean testimonio de una inversión inteligente. Nuestro equipo experto te acompaña desde el diseño hasta la ejecución, asegurándonos de que cada detalle refleje tu visión y garantizando su entrega puntual. Con nosotros, no solo <span className='text-[white]'>transformas</span> un lugar, ¡creas el escenario perfecto para vivir tus mejores momentos! Confía en <span className='text-[white]'>Transformar,</span> ¡y empieza a disfrutar de los <span className='text-[white]'>Espacios</span> que mereces!
+
             </p>
           </div>
 
@@ -24,7 +43,7 @@ const Information = () => {
       </section>
       <section>
         <div>
-          <p className='font-bold xl:text-4xl p-5 xl:pl-60 pl-12 text-3xl tracking-wider'>Nuestros Proyectos</p>
+          <p className='font-bold xl:text-4xl p-5 xl:pl-60 pl-12 text-3xl tracking-wider text-white'>Nuestro Portafolio</p>
         </div>
         <div className='grid gap-1 items-center justify-center xl:px-60 p-10 pb-20'>
           <div className='grid grid-cols-3 gap-1'>
