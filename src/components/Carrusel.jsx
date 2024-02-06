@@ -26,7 +26,7 @@ const Carrusel = () => {
 
   return (
 
-    <div className='max-full h-[780px] w-full m-auto p-16 px-5 relative group pt-[110px] t-5'>
+    <div className='max-full h-[780px] w-full m-auto p-16 px-5 relative group pt-[130px]'>
       <div style={{ backgroundImage: `url(${slides[currentIndex].imgUrl})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500' />
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
@@ -41,7 +41,7 @@ const Carrusel = () => {
           <div
             key={slide.id}
             onClick={() => goToSlide(slideIndex)}
-            className={`text-2xl cursor-pointer ${slideIndex === currentIndex ? 'text-gray-600' : ''}`}
+            className={`text-2xl cursor-pointer ${slideIndex === currentIndex ? 'text-white' : ''}`}
           >
             <RxDotFilled />
           </div>

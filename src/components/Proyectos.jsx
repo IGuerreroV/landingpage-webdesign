@@ -19,7 +19,7 @@ const Proyectos = () => {
       {proyectos.map((proyecto) => (
         <div
           key={proyecto.id}
-          className='hover:bg-gray-300 text-gray-700 hover:text-black cursor-pointer rounded-r-lg border-l-transparent xl:hover:border-l-[#B49F5B] border-l-4 justify-left transition duration-75 ease-out'
+          className='hover:bg-[#d1d1d1] text-[#000000] cursor-pointer rounded-r-lg border-l-transparent xl:hover:border-l-[#778899] border-l-4 justify-left transition duration-75 ease-out'
         >
           <a href='/proyectos'>{proyecto.nombre}</a>
 

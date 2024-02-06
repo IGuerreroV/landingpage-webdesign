@@ -23,7 +23,7 @@ const Information = () => {
           <div className='flex flex-col'>
 
             <a
-              className=' text-white py-2 px-8 rounded-xl text-xl border-gray-500 border-[2px] m-1 hover:border-black hover:scale-[101%] font-normal text-center'
+              className=' text-[] py-2 px-8 rounded-xl text-xl border-gray-500 border-[2px] m-1 hover:border-black hover:scale-[101%] font-normal text-center bg-[#B4B4B4]'
               href='tel:1111111'
               onClick={HandleCall}
             >
@@ -32,9 +32,9 @@ const Information = () => {
           </div>
 
           <div className='items-center justify-center'>
-            <h1 className='text-center text-2xl font-medium pb-6 pt-1 tracking-[1px]'>Nuestra Empresa</h1>
-            <p className='text-center text-[#000000] text-[20px] xl:text-xl xl:leading-[2.5rem] leading-8 xl:px-80 px-10 font-mono'>
-              ¡Haz realidad el espacio de tus sueños con <span className='text-[white]'>Transformar Espacios!</span> Comprometidos con la excelencia y tu satisfacción, nos dedicamos a crear <span className='text-[white]'>espacios</span> que son verdaderas obras de arte en funcionalidad, confort y que sean testimonio de una inversión inteligente. Nuestro equipo experto te acompaña desde el diseño hasta la ejecución, asegurándonos de que cada detalle refleje tu visión y garantizando su entrega puntual. Con nosotros, no solo <span className='text-[white]'>transformas</span> un lugar, ¡creas el escenario perfecto para vivir tus mejores momentos! Confía en <span className='text-[white]'>Transformar,</span> ¡y empieza a disfrutar de los <span className='text-[white]'>Espacios</span> que mereces!
+            <h1 className='text-center text-2xl font-medium pb-6 pt-1 tracking-[1px] text-white'>Nuestra Empresa</h1>
+            <p className='text-center text-[#d1d1d1] text-[20px] xl:text-xl xl:leading-[2.5rem] leading-8 xl:px-80 px-10 font-mono'>
+              ¡Haz realidad el espacio de tus sueños con <span className='text-[#000000]'>Transformar Espacios!</span> Comprometidos con la excelencia y tu satisfacción, nos dedicamos a crear <span className='text-[#000000]'>espacios</span> que son verdaderas obras de arte en funcionalidad, confort y que sean testimonio de una inversión inteligente. Nuestro equipo experto te acompaña desde el diseño hasta la ejecución, asegurándonos de que cada detalle refleje tu visión y garantizando su entrega puntual. Con nosotros, no solo <span className='text-[#000000]'>transformas</span> un lugar, ¡creas el escenario perfecto para vivir tus mejores momentos! Confía en <span className='text-[#000000]'>Transformar,</span> ¡y empieza a disfrutar de los <span className='text-[#000000]'>Espacios</span> que mereces!
 
             </p>
           </div>

@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 
 function App () {
   return (
-    <div className='bg-gradient-to-b from-white to-[black]'>
+    <div className='bg-gradient-to-b from-white via-black to-[black]'>
       <Header />
       <Carrusel />
       <Information />

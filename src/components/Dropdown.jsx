@@ -6,9 +6,9 @@ import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai'
 const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className='relative flex flex-col items-center rounded-lg'>
+    <div className='relative flex flex-col items-center'>
       <button
-        onClick={() => setIsOpen((prev) => !prev)} className='p-4 w-full flex items-center font-normal xl:text-lg xl:rounded-lg tracking-[1px] text-base text-[black] border-4 border-transparent active:border-white active:text-[#B49F5B] justify-between xl:justify-center xl:hover:text-[#B49F5B] duration-0 xl:hover:underline underline-offset-2'
+        onClick={() => setIsOpen((prev) => !prev)} className='p-4 w-full flex items-center font-normal xl:text-lg xl:rounded-lg tracking-[1px] text-base text-[black] active:bg-[#d1d1d1] xl:active:bg-inherit justify-between xl:justify-center xl:hover:text-[#3d3d3d] duration-0 xl:hover:underline underline-offset-2'
       >
         NUESTROS PROYECTOS
         {!isOpen

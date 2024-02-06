@@ -11,10 +11,10 @@ const Header = () => {
       <header className='flex xl:flex-col justify-between xl:justify-start items-center w-full xl:h-[44vh] h-[16vh]  z-50 pt-2'>
         <div className='container flex flex-1 justify-center items-center pl-10 pt-10 xl:p-0'>
           <a href='#'>
-            <img src='logo/Hero.png' className='xl:w-80 xl:h-80 w-40 h-55' />
+            <img src='logo/Hero-transformed.png' className='xl:w-[350px] xl:h-[350px] w-40 h-55' />
           </a>
         </div>
-        <nav className={`fixed bg-gray-400 lg:bg-inherit w-[70%] md:w-[40%] xl:w-[22%] xl:h-auto rounded-lg h-full
+        <nav className={`fixed bg-gray-400 lg:bg-inherit w-[70%] md:w-[40%] xl:w-[22%] xl:h-auto h-full
         ${
         showMenu ? 'left-0' : '-left-full'
         }
