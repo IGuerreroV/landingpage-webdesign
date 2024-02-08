@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Proyectos from './Proyectos'
+import Projects from './Projects'
 // Icons
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai'
 
@@ -22,7 +22,7 @@ const Dropdown = () => {
 
       {isOpen && (
         <div className='bg-gray-400 xl:bg-white xl:border-2 border-[#EFECEC] absolute xl:top-[60px] top-[72px] flex-col items-start xl:rounded-lg p-4 text-1xl tracking-widest font-semibold xl:w-[70%] w-full'>
-          <Proyectos />
+          <Projects />
         </div>
       )}
     </div>
