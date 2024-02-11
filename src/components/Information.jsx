@@ -20,10 +20,9 @@ const Information = () => {
       </div>
       <section>
         <div className='flex flex-col items-center justify-center '>
-          <div className='flex flex-col'>
-
+          <div className='flex flex-col hover:scale-[102%] duration-200'>
             <a
-              className=' text-[] py-2 px-8 rounded-xl text-xl border-gray-500 border-[2px] m-1 hover:border-black hover:scale-[101%] font-normal text-center bg-[#B4B4B4]'
+              className=' text-[] py-2 px-20 rounded-xl text-xl border-gray-500 m-1 hover:border-black font-normal text-center bg-[#B4B4B4]'
               href='tel:1111111'
               onClick={HandleCall}
             >
