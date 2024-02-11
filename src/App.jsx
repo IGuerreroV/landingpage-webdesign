@@ -8,7 +8,7 @@ import { Route, Routes } from 'react-router-dom'
 
 function App () {
   return (
-    <div className='bg-gradient-to-b from-white via-black to-[black]'>
+    <div className='bg-gradient-to-b from-white via-black via-25% to-[black]'>
       <Header />
 
       <Routes>
