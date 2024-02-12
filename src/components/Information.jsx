@@ -32,7 +32,7 @@ const Information = () => {
 
           <div className='items-center justify-center'>
             <h1 className=' font-BodoniModa text-center text-2xl font-bold pb-6 pt-1 tracking-[1px] text-white'>Nuestra Empresa</h1>
-            <p className='text-center font-PlayfairDisplay text-[white] text-[15px] xl:text-lg xl:leading-[2rem] leading-8 xl:px-80 px-10 tracking-wide'>
+            <p className='text-center font-Oswald font-thin text-[#e3e4e5] text-[15px] xl:text-lg xl:leading-[2rem] leading-8 xl:px-80 px-10 tracking-wide'>
               ¡Haz realidad el espacio de tus sueños con <span className='text-[#f5f5dc]'>Transformar Espacios!</span> Comprometidos con la excelencia y tu satisfacción, nos dedicamos a crear <span className='text-[#f5f5dc]'>espacios</span> que son verdaderas obras de arte en funcionalidad, confort y que sean testimonio de una inversión inteligente. Nuestro equipo experto te acompaña desde el diseño hasta la ejecución, asegurándonos de que cada detalle refleje tu visión y garantizando su entrega puntual. Con nosotros, no solo <span className='text-[#f5f5dc]'>transformas</span> un lugar, ¡creas el escenario perfecto para vivir tus mejores momentos! Confía en <span className='text-[#f5f5dc]'>Transformar,</span> ¡y empieza a disfrutar de los <span className='text-[#f5f5dc]'>Espacios</span> que mereces!
 
             </p>
