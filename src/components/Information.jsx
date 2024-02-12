@@ -23,7 +23,7 @@ const Information = () => {
           <div className='flex flex-col hover:scale-[102%] duration-200'>
             <a
               className='  font-Roboto text-[] py-2 px-20 rounded-xl text-xl border-gray-500 m-1 hover:border-black font-normal text-center bg-[#B4B4B4]'
-              href='tel:1111111'
+              href='tel:3138709091'
               onClick={HandleCall}
             >
               Llama ahora
@@ -31,8 +31,8 @@ const Information = () => {
           </div>
 
           <div className='items-center justify-center'>
-            <h1 className=' font-BodoniModa text-center text-2xl font-bold pb-6 pt-1 tracking-[1px] text-white'>Nuestra Empresa</h1>
-            <p className='text-center font-Oswald font-thin text-[#e3e4e5] text-[15px] xl:text-lg xl:leading-[2rem] leading-8 xl:px-80 px-10 tracking-wide'>
+            <h1 className=' font-Quattrocento text-center text-2xl font-medium pb-6 pt-1 tracking-[2px] text-white'>Nuestra Empresa</h1>
+            <p className='text-center font-Oswald font-thin text-gray-100 text-[15px] xl:text-lg xl:leading-[2rem] leading-8 xl:px-80 px-10 tracking-wide'>
               ¡Haz realidad el espacio de tus sueños con <span className='text-[#f5f5dc]'>Transformar Espacios!</span> Comprometidos con la excelencia y tu satisfacción, nos dedicamos a crear <span className='text-[#f5f5dc]'>espacios</span> que son verdaderas obras de arte en funcionalidad, confort y que sean testimonio de una inversión inteligente. Nuestro equipo experto te acompaña desde el diseño hasta la ejecución, asegurándonos de que cada detalle refleje tu visión y garantizando su entrega puntual. Con nosotros, no solo <span className='text-[#f5f5dc]'>transformas</span> un lugar, ¡creas el escenario perfecto para vivir tus mejores momentos! Confía en <span className='text-[#f5f5dc]'>Transformar,</span> ¡y empieza a disfrutar de los <span className='text-[#f5f5dc]'>Espacios</span> que mereces!
 
             </p>
@@ -42,7 +42,7 @@ const Information = () => {
       </section>
       <section>
         <div>
-          <p className='font-bold font-BodoniModa xl:text-4xl p-5 xl:pl-60 pl-12 text-3xl tracking-wider text-white'>Nuestro Portafolio</p>
+          <p className=' font-semibold font-Quattrocento xl:text-4xl p-5 xl:pl-60 pl-12 text-4xl tracking-wider text-white'>Nuestro Portafolio</p>
         </div>
         <div className='grid gap-1 items-center justify-center xl:px-60 p-10 pb-20'>
           <div className='grid grid-cols-3 gap-1'>
@@ -56,10 +56,10 @@ const Information = () => {
             <img className='' src='/Closet/18466287-70a5-49ab-a89f-71a642b07dbe.jpg' />
           </div>
           <div className='grid grid-cols-3 gap-1'>
-            <img className='rounded-[10px] row-span-2 col-start-1 col-end-3 h-full' src='/Centros-de-entretenimiento/ddfaa9f6-a812-44df-a0cd-44e59b97ab72.jpg' />
+            <img className='row-span-2 col-start-1 col-end-3 h-full' src='/Centros-de-entretenimiento/ddfaa9f6-a812-44df-a0cd-44e59b97ab72.jpg' />
 
-            <img className='rounded-[10px] h-full' src='/Closet/24cbcabd-9fbc-4e1a-ba5f-b61d4cf34042.jpg' />
-            <img className='rounded-[10px] h-full' src='/cocinas/88675123-5ee3-4de0-a3aa-14aeccf7a9f4.jpg' />
+            <img className='h-full' src='/Closet/24cbcabd-9fbc-4e1a-ba5f-b61d4cf34042.jpg' />
+            <img className='h-full' src='/cocinas/88675123-5ee3-4de0-a3aa-14aeccf7a9f4.jpg' />
           </div>
         </div>
       </section>

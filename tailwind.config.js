@@ -8,13 +8,9 @@ export default {
     extend: {
       fontFamily: {
         Oswald: ['Oswald', 'sans-serif'],
-        Raleway: ['Raleway', 'sans-serif'],
-        Roboto: ['Roboto', 'sans-serif'],
-        Poppins: ['Poppins', 'sans-serif'],
-        FiraSans: ['Fira Sans', 'sans-serif'],
-        PlayfairDisplay: ['Playfair Display', 'serif'],
-        GFSDidot: ['GFS Didot', 'serif'],
-        BodoniModa: ['Bodoni Moda', 'serif']
+        BodoniModa: ['Bodoni Moda', 'serif'],
+        Quattrocento: ['Quattrocento', 'serif'],
+        QuattrocentoSans: ['Quattrocento Sans', 'sans-serif']
       }
     }
   },
