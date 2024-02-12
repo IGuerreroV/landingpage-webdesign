@@ -2,7 +2,7 @@ const Servicios = () => {
   return (
     <div>
       <div>
-        <p className='font-bold xl:text-4xl py-10 xl:text-center xl:tracking-widest sm:text-5xl text-4xl ml-5 xl:ml-0 text-white'>
+        <p className='font-bold font-BodoniModa xl:text-4xl py-10 xl:text-center xl:tracking-widest sm:text-5xl text-4xl ml-5 xl:ml-0 text-white'>
           Nuestros servicios
         </p>
       </div>
