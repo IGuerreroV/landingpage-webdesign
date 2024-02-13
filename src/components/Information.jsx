@@ -42,7 +42,7 @@ const Information = () => {
       </section>
       <section>
         <div>
-          <p className=' font-semibold font-Quattrocento xl:text-4xl p-5 xl:pl-60 pl-12 text-4xl xl:tracking-wider tracking-wide text-white '>Nuestro Portafolio</p>
+          <p className=' font-semibold font-Quattrocento xl:text-4xl p-5 xl:pl-60 pl-12 text-3xl xl:tracking-wider tracking-normal text-white '>Nuestro Portafolio</p>
         </div>
         <div className='grid gap-1 items-center justify-center xl:px-60 p-10 pb-20'>
           <div className='grid grid-cols-3 gap-1'>
